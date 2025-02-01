@@ -1,0 +1,300 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(211, 209, 209);
+}
+
+.navb{
+  display: inline-block;
+  margin-left: 8px;
+  font-style: none;
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+}
+.navb:hover{
+  text-decoration: underline;
+  font-size: 20px;
+}
+nav{
+  padding-right: 20px;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(182, 180, 180);
+  width: 100%;
+  padding-left: 10px;
+}
+
+.site-author-info{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.site-logo{
+  margin-top: 20px;
+}
+
+/* end of header styling starting main section of homepage */
+
+.hero-section{
+  text-align: center;
+  background-color: rgb(85, 85, 85);
+  color: white;
+  padding-bottom: 150px;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+.reach-me-button{
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: black;
+}
+.reach-me-button:hover{
+  padding: 15px;
+  font-size: 20px;
+}
+.reach-me-button:active{
+  color: black;
+  background-color: white;
+}
+
+.features-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+}
+.projects-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: start;
+  background-color: rgb(180, 179, 179);
+  padding: 20px;
+  border-radius: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.work-container{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  background-color: rgb(180, 179, 179);
+  padding: 20px;
+  border-radius: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.education-container{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  background-color: rgb(180, 179, 179);
+  padding: 20px;
+  border-radius: 5px;
+  line-height: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.project{
+  font-weight: bold;
+  background-color: rgb(136, 136, 136);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.project:hover{
+  color: white;
+  background-color: black;
+}
+.visit-roadmapsh, .visit-github{
+  color: rgb(25, 53, 131);
+  font-weight: bold;
+}
+.college-education, .courses-education{
+  font-size: 20px;
+  font-weight: bold;
+}
+.mentors-saying{
+  text-align: center;
+}
+.reviews{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+.review-title{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.review{
+  background-color: rgb(172, 168, 168);
+  border-radius: 10px;
+}
+ 
+
+/* End of the main section starting with the footer*/ 
+footer{
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* projects page */
+
+.projects-container2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: start;
+  background-color: rgb(180, 179, 179);
+  padding: 20px;
+  border-radius: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  width: 100%;
+}
+
+/* articles page */
+
+
+.article-page-title{
+  text-align: center;
+}
+
+article{
+  line-height: 15px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h3{
+  line-height: 25px;
+}
+
+.card{
+  line-height: 30px;
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: start;
+}
+
+/* contact page */
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  max-width: fit-content;
+  margin-inline: auto;
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-family: arial;
+  margin-bottom: 150px;
+}
+
+.name-phone{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 15px;
+}
+
+.email-message{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+
+.name{
+height: 30px;
+border-radius: 5px;
+border: solid 0.5px rgb(180, 180, 180);
+
+}
+
+.phone{
+  height: 30px;
+border-radius: 5px;
+border: solid 0.5px rgb(180, 180, 180);
+}
+
+.emailo{
+  height: 30px;
+  border-radius: 5px;
+  border: solid 0.5px rgb(180, 180, 180);
+}
+
+.message{
+  height: 70px;
+  padding-top: 5px;
+  font-family: arial;
+  border-radius: 5px;
+  border: solid 0.5px rgb(180, 180, 180);
+}
+
+.submit{
+  height: 30px;
+  border: none;
+  color: white;
+  background-color: rgb(31, 31, 31);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit:hover{
+  border: solid black 1px;
+  background-color: white;
+  color: black;
+}
+.submit:active{
+  scale: 1.05;
+}
+
+
